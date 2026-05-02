@@ -1,3 +1,6 @@
+Project by: JEL359
+Date: May 2026
+
 Industrial Asset Tracking Smart Contract - README.txt
 
 TITLE: Industrial Asset Tracking Smart Contract
