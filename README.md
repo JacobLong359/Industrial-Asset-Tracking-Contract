@@ -22,6 +22,7 @@ FEATURES:
 
 DATA MODEL: Each asset is stored as a struct:
 Asset { string name; string rfid; string status; string location; uint256 manufacturedOn; uint256 warrantyUntil; }
+
 Assets are stored in a mapping: mapping(string => Asset) private assets;
 
 ACCESS CONTROL: Only authorized users are allowed to register or modify assets. This prevents unauthorized updates to asset records.
@@ -35,3 +36,5 @@ USE CASES:
 
 TESTING: The contract can be tested using:
 - Remix IDE (recommended)
+
+Note: This project includes code generated with the assistance of Microsoft Copilot and Remix IDE AI.
